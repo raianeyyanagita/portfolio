@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Currículo - Raiane Mayume C. Yanagita</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'Inter', sans-serif;
+      color: #1e293b;
+      background: #f1f5f9;
+      line-height: 1.55;
+      padding: 2rem 1rem;
+    }
+    .toolbar {
+      max-width: 800px;
+      margin: 0 auto 1rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: #0f172a;
+      color: #fff;
+      padding: 0.85rem 1.25rem;
+      border-radius: 10px;
+    }
+    .toolbar a, .toolbar button {
+      background: #8b5cf6;
+      color: #fff;
+      border: none;
+      padding: 0.55rem 1rem;
+      border-radius: 6px;
+      font-weight: 600;
+      font-size: 0.88rem;
+      cursor: pointer;
+      text-decoration: none;
+    }
+    .toolbar a.back {
+      background: transparent;
+      border: 1px solid #475569;
+    }
+    .cv-sheet {
+      max-width: 800px;
+      margin: 0 auto;
+      background: #ffffff;
+      padding: 3rem;
+      border-radius: 8px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+    }
+    h1 {
+      font-size: 1.85rem;
+      color: #0f172a;
+      letter-spacing: -0.5px;
+      margin-bottom: 0.35rem;
+    }
+    .contact-line {
+      font-size: 0.9rem;
+      color: #475569;
+      padding-bottom: 1.1rem;
+      border-bottom: 2px solid #e2e8f0;
+      margin-bottom: 1.4rem;
+    }
+    h2 {
+      font-size: 0.95rem;
+      text-transform: uppercase;
+      letter-spacing: 0.6px;
+      color: #2563eb;
+      border-bottom: 1px solid #cbd5e1;
+      padding-bottom: 0.35rem;
+      margin: 1.4rem 0 0.75rem;
+    }
+    p { font-size: 0.94rem; color: #334155; margin-bottom: 0.6rem; }
+    .job { margin-bottom: 1rem; }
+    .job-title { font-weight: 700; color: #0f172a; font-size: 0.96rem; }
+    .job-role { color: #64748b; font-size: 0.86rem; margin-bottom: 0.3rem; }
+    @media print {
+      body { background: #fff; padding: 0; }
+      .toolbar { display: none; }
+      .cv-sheet { box-shadow: none; padding: 0; max-width: 100%; }
+    }
+  </style>
+</head>
+<body>
+  <div class="toolbar">
+    <a href="index.html" class="back">&larr; Voltar ao Portfólio</a>
+    <button onclick="window.print()">Salvar como PDF / Imprimir</button>
+  </div>
+
+  <div class="cv-sheet">
+    <h1>RAIANE MAYUME C. YANAGITA</h1>
+    <div class="contact-line">
+      Itaúna, MG | WhatsApp: (11) 97220-7220 | (37) 99821-1196 | raianemayumeyanagita@gmail.com<br>
+      LinkedIn: linkedin.com/in/raiane-yanagita-621b24275 | GitHub: github.com/raianeyyanagita
+    </div>
+
+    <h2>Resumo Profissional</h2>
+    <p>
+      Profissional com experiência em desenvolvimento e manutenção de páginas web, suporte técnico básico, educação e atendimento. Graduada em Pedagogia e formada em Desenvolvimento Web Full Stack pela Trybe. Conhecimentos de HTML, CSS, JavaScript, React e Node.js, com interesse em oportunidades remotas nas áreas de desenvolvimento front-end e suporte de TI.
+    </p>
+
+    <h2>Competências e Ferramentas</h2>
+    <p><strong>Tecnologia:</strong> HTML, CSS, JavaScript, React, Node.js; manutenção de páginas web, ajustes visuais e responsividade.</p>
+    <p><strong>Suporte e produtividade:</strong> instalação e configuração de softwares, resolução de problemas básicos, atendimento remoto, Word, Excel e PowerPoint.</p>
+    <p><strong>Competências:</strong> comunicação, organização, resolução de problemas, colaboração e aprendizado rápido.</p>
+
+    <h2>Experiência Profissional em TI</h2>
+    <div class="job">
+      <div class="job-title">Desenvolvedora Front-end | Suporte Técnico de TI — WebOT IT Solutions</div>
+      <div class="job-role">Fevereiro de 2025 – Abril de 2026</div>
+      <p>Desenvolvimento e manutenção de páginas web com HTML, CSS e JavaScript; ajustes visuais, atualização de conteúdos, correção de erros e melhorias de responsividade. Suporte técnico básico, instalação e configuração de softwares, resolução de problemas em sistemas, atendimento remoto e orientação a usuários.</p>
+    </div>
+
+    <h2>Formação</h2>
+    <p><strong>Desenvolvimento Web Full Stack</strong> — Trybe</p>
+    <p><strong>Pedagogia</strong> — Universidade do Estado de Minas Gerais (UEMG)</p>
+
+    <h2>Idiomas</h2>
+    <p>Inglês básico</p>
+  </div>
+</body>
+</html>
