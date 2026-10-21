@@ -122,7 +122,7 @@ document.addEventListener('DOMContentLoaded', () => {
       const mensagem = document.getElementById('mensagem').value.trim();
 
       const textoWhatsApp = `Olá Raiane! Me chamo *${nome}* (${email}).\n*Assunto:* ${assunto}\n\n${mensagem}`;
-      const urlWhatsApp = `https://wa.me/5511972207220?text=${encodeURIComponent(textoWhatsApp)}`;
+      const urlWhatsApp = `https://wa.me/5537998211196?text=${encodeURIComponent(textoWhatsApp)}`;
 
       formFeedback.textContent = `Redirecionando para o WhatsApp da Raiane...`;
       formFeedback.classList.remove('hidden');
